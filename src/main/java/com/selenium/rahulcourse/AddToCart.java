@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,14 +17,19 @@ public class AddToCart {
         driver.manage().window().maximize();
         driver.get("https://rahulshettyacademy.com/seleniumPractise/");
         List<WebElement> allItems=driver.findElements(By.cssSelector("h4.product-name"));
+        String[] itemNames={"Cucumber","Brocolli","Beetroot"};
+
         for(int i=0;i<allItems.size();i++){
             String names=allItems.get(i).getText();
-            String[] itemNames={"Cucumber","Brocoli","Beetroot"};
             List<String> nestedItems=Arrays.asList(itemNames);
             if (nestedItems.contains(names)){
                 driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
             }
         }
+    }
+    public static void wait(WebDriver driver, WebElement webElement){
+        WebDriverWait wait=new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.visibilityOf(webElement));
     }
 }
 
