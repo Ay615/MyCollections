@@ -17,11 +17,12 @@ public class WebTables {
         int count=table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)")).size();
         for(int i=0;i<count-2;i++)
         {
-            String value=table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)")).get(i).getText();
+            String value=table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)"))
+                    .get(i).getText();
             int valueinteger= Integer.parseInt(value);
             sum=sum+valueinteger;//103
         }
-//System.out.println(sum);
+        System.out.println(sum);
 
         String Extras=driver.findElement(By.xpath("//div[text()='Extras']/following-sibling::div")).getText();
         int extrasValue=Integer.parseInt(Extras);

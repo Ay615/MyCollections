@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9831a6-36ab-47a6-b5be-e29d2b85de68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/AutoSuggest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/HandleCertificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/LimitingWebDRiverScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/MouseActionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/SeleniumNewFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/TableSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/UICalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/collections/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/collections/FindSmallestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/ClendarINJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/DataProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/ExtendReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/Log4jDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/datadriven/GetCells.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +51,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.TableSorting">
-    <configuration name="AddToCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.AddToCart" />
+  <component name="RunManager" selected="TestNG.HomePage.basePageNavigation">
+    <configuration name="ClendarINJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.ClendarINJava" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +71,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoSuggest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.AutoSuggest2" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.collections.FindDuplicate" />
+      <module name="myCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSmallestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.collections.FindSmallestNumber" />
+      <module name="myCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.Log4jDemo" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -78,52 +110,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.TableSorting" />
+    <configuration name="HomePage.basePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.selenium.rahulcourse.*" />
+          <option name="PATTERN" value="com.selenium.rahulcourse.project1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UICalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.UICalendar" />
-      <module name="myCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.rahulcourse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.WebTables" />
-      <module name="myCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.rahulcourse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.rahulcourse.project1" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.project1.HomePage" />
+      <option name="METHOD_NAME" value="basePageNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TableSorting" />
-        <item itemvalue="Application.AutoSuggest2" />
-        <item itemvalue="Application.WebTables" />
-        <item itemvalue="Application.UICalendar" />
-        <item itemvalue="Application.AddToCart" />
+        <item itemvalue="TestNG.HomePage.basePageNavigation" />
+        <item itemvalue="Application.FindDuplicate" />
+        <item itemvalue="Application.ClendarINJava" />
+        <item itemvalue="Application.FindSmallestNumber" />
+        <item itemvalue="Application.Log4jDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -152,54 +163,62 @@
       <option name="project" value="LOCAL" />
       <updated>1598559326780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="files">
+      <created>1598648204634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598648204634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="About dynamic dropDwon and autoSuggest" />
     <MESSAGE value="Add to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add to cart" />
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1598559325809">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1598648204142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598559325809" />
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1598644866179">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598648204142" />
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598644866179" />
-    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1598644866179">
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.0.center" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598644866179" />
-    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1598644866179">
+    <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.0.left" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598644866179" />
-    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1598644866179">
+    <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.0.right" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598644866179" />
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1598627697052">
+    <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1598764054729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598627697052" />
-    <state width="1237" height="195" key="GridCell.Tab.1.center" timestamp="1598627697052">
+    <state width="1237" height="195" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598764054729" />
+    <state width="1237" height="195" key="GridCell.Tab.1.center" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598627697052" />
-    <state width="1237" height="195" key="GridCell.Tab.1.left" timestamp="1598627697052">
+    <state width="1237" height="195" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.1.left" timestamp="1598764054728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598627697052" />
-    <state width="1237" height="195" key="GridCell.Tab.1.right" timestamp="1598627697052">
+    <state width="1237" height="195" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
+    <state width="1237" height="195" key="GridCell.Tab.1.right" timestamp="1598764054729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598627697052" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1598546827169">
+    <state width="1237" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598764054729" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1598648206411">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598546827169" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598648206411" />
   </component>
 </project>
