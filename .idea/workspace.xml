@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9831a6-36ab-47a6-b5be-e29d2b85de68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/ExtractResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/DeserilizationDemoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/JsonContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/JsonFile3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/ObjectUsedForJsonContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/ConditionLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/JsonPathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/Jsons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/jsonFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/jsonfile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/restassuredapi/AddPlace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -46,9 +72,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/hepsiburada" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.ExtractResponse">
-    <configuration name="AddPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.restassuredapi.AddPlace" />
+  <component name="RunManager" selected="Application.DeserilizationDemoes">
+    <configuration name="ConditionLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.restassuredapi.ConditionLogic" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClendarINJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.ClendarINJava" />
+    <configuration name="DeserilizationDemoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.DeserilizationDemoes" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.restassuredapi.ExtractResponse" />
+    <configuration name="JsonContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.JsonContent" />
+      <module name="myCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.rahulcourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.restassuredapi.JsonPathDemo" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -86,44 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.collections.FindDuplicate" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.restassuredapi.pojoclassess.Test" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.selenium.collections.*" />
+          <option name="PATTERN" value="com.selenium.rahulcourse.restassuredapi.pojoclassess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePage.basePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.rahulcourse.project1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.selenium.rahulcourse.project1" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.project1.HomePage" />
-      <option name="METHOD_NAME" value="basePageNavigation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExtractResponse" />
-        <item itemvalue="Application.AddPlace" />
-        <item itemvalue="TestNG.HomePage.basePageNavigation" />
-        <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.ClendarINJava" />
+        <item itemvalue="Application.DeserilizationDemoes" />
+        <item itemvalue="Application.JsonContent" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ConditionLogic" />
+        <item itemvalue="Application.JsonPathDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -166,40 +187,60 @@
       <option name="project" value="LOCAL" />
       <updated>1598816675947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="api test">
+      <created>1598872740096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598872740096</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="About dynamic dropDwon and autoSuggest" />
     <MESSAGE value="Add to cart" />
     <MESSAGE value="files" />
-    <option name="LAST_COMMIT_MESSAGE" value="files" />
+    <MESSAGE value="api test" />
+    <option name="LAST_COMMIT_MESSAGE" value="api test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1598816674846">
+    <state x="407" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598895150881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598816674846" />
+    <state x="407" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1598895150881" />
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1598895565523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598895565523" />
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598882477168">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598882477168" />
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1598872739508">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598872739508" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1598867316328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598867316328" />
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1598872707213">
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom" timestamp="1598896907928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598872707213" />
-    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1598872707213">
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598896907928" />
+    <state width="1237" height="131" key="GridCell.Tab.0.center" timestamp="1598896907928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598872707213" />
-    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1598872707212">
+    <state width="1237" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598896907928" />
+    <state width="1237" height="131" key="GridCell.Tab.0.left" timestamp="1598896907927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598872707212" />
-    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1598872707213">
+    <state width="1237" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598896907927" />
+    <state width="1237" height="131" key="GridCell.Tab.0.right" timestamp="1598896907928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598872707213" />
+    <state width="1237" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598896907928" />
     <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1598764054729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -216,9 +257,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598764054729" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1598816686924">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1598872741752">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598816686924" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598872741752" />
   </component>
 </project>
