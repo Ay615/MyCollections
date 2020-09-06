@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9831a6-36ab-47a6-b5be-e29d2b85de68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleMultiThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleMultiThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleMultiThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599291094415</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MultiThread">
+      <created>1599409543483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599409543483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,7 +206,8 @@
     <MESSAGE value="files" />
     <MESSAGE value="api test" />
     <MESSAGE value="json path usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="json path usage" />
+    <MESSAGE value="MultiThread" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThread" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598895150881">
@@ -217,30 +222,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598882477168" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1599291093700">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1599409542966">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599291093700" />
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599409542966" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1598867316328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598867316328" />
-    <state width="1237" height="130" key="GridCell.Tab.0.bottom" timestamp="1599409527883">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom" timestamp="1599410633463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599409527883" />
-    <state width="1237" height="130" key="GridCell.Tab.0.center" timestamp="1599409527883">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599410633463" />
+    <state width="1237" height="130" key="GridCell.Tab.0.center" timestamp="1599410633462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599409527883" />
-    <state width="1237" height="130" key="GridCell.Tab.0.left" timestamp="1599409527883">
+    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599410633462" />
+    <state width="1237" height="130" key="GridCell.Tab.0.left" timestamp="1599410633462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599409527883" />
-    <state width="1237" height="130" key="GridCell.Tab.0.right" timestamp="1599409527883">
+    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599410633462" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right" timestamp="1599410633463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599409527883" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599410633463" />
     <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1598764054729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -261,9 +266,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599302182103" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1599291097709">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1599409544933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599291097709" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599409544933" />
   </component>
 </project>
