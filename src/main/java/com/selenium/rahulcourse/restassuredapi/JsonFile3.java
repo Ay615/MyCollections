@@ -1,4 +1,4 @@
-package com.selenium.rahulcourse;
+package com.selenium.rahulcourse.restassuredapi;
 
 public class JsonFile3 {
     public static String coursesJson(){

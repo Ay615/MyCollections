@@ -1,6 +1,7 @@
-package com.selenium.rahulcourse;
+package com.selenium.rahulcourse.restassuredapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.selenium.rahulcourse.ObjectUsedForJsonContent;
 
 import java.io.File;
 import java.io.IOException;

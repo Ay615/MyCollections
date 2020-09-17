@@ -1,5 +1,6 @@
-package com.selenium.rahulcourse;
+package com.selenium.rahulcourse.restassuredapi;
 
+import com.selenium.rahulcourse.restassuredapi.JsonFile3;
 import io.restassured.path.json.JsonPath;
 
 
