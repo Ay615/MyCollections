@@ -1,10 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Cubecart Automation TestNG Framework">
+    <test name="Google test automation" >
 
-    <test name="Selenium Automation Test" >
-        <parameter name="URL" value="https://www.google.com"></parameter>
         <classes>
-         <class name="com.selenium.tests.TestBase"></class>
+            <class name="cubecarttest.MultiBrowser">
+                <methods>
+                    <include name="multipleWindowRobotFrameworkSiteTest"/>
+                    <include name="multipleWindowTest"/>
+                </methods>
+            </class>
         </classes>
+
     </test>
+
+
 </suite>

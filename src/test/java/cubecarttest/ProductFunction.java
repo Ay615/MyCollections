@@ -86,7 +86,7 @@ public class ProductFunction extends TestBase {
 
     public void bulkDeleteProducts() {
         driver.findElement(By.id("nav_products")).click();
-        driver.findElement(By.linkText("View All")).click();
+        //driver.findElement(By.linkText("View All")).click();
         sleep(2);
         int productsCount=1;
         for (int i=1;i<=productsCount;i++)

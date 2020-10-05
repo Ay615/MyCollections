@@ -7,11 +7,10 @@ import org.testng.annotations.Test;
 
 public class Dataprovider4 {
 
-    @Test(dataProvider = "maharaUsers")
+    @Test(dataProvider = "maharaUsers",groups = "smoke test")
     public void test(String username,String password){
         System.out.println("Mahara username is:"+username);
         System.out.println("Mahara passwordes is:"+password);
-
     }
 
     @DataProvider

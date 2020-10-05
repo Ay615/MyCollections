@@ -7,18 +7,30 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
 
 public class TestBase {
-    public static void main(String[] args) {
+    WebDriver driver;
+   @Parameters("browser")
+    @Test
+    public void amazonSearch(String browser){
+       if(browser.equals("chrome")){
+           System.setProperty("webdriver.chrome.driver", "c://webdriver//chromedriver.exe");
+           driver = new ChromeDriver();
+           driver.manage().window().maximize();}
+       else if(browser.equals("firefox")) {
+           System.setProperty("webdriver.gecko.driver", "c://webdriver//geckodriver.exe");
+           driver = new FirefoxDriver();
+           driver.manage().window().maximize();
+       }
         System.setProperty("webdriver.chrome.driver","c:\\webdriver\\chromedriver.exe");
         WebDriver webDriver=new ChromeDriver();
         webDriver.manage().window().maximize();
-        webDriver.get("https://www.google.com");
-            WebElement searchBox = webDriver.findElement(By.name("q"));
-            searchBox.sendKeys("java"+ Keys.ENTER);
-        System.out.println(webDriver.getTitle()); //go back to the main page
-        webDriver.close();
-        webDriver.quit();
+        webDriver.get("https://www.amazon.com");
+        System.out.println(webDriver.getTitle());
+
     }
 }
