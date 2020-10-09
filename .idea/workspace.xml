@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9831a6-36ab-47a6-b5be-e29d2b85de68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/AddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/DriverInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/MultiBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/Singlton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/WebUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/collections/ListDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/BrokenLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/rahulcourse/javastream/StreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/SeleniumPractice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/SeleniumPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobiletest/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/collections/Dataprovider4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/collections/Dataprovider4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/GoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttest/CubeCartProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/CubeCartProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttest/ProductFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/ProductFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/tests/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttest/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttest/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +75,36 @@
       <recent name="C:\Users\Aynigar\projects\myCollection" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.tests.Practice" />
+  <component name="RunManager" selected="Application.StreamDemo1">
+    <configuration name="ListDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.collections.ListDuplicate" />
+      <module name="myCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.tests.SS" />
+      <module name="myCollection" />
+      <option name="PROGRAM_PARAMETERS" value="100 200" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.tests.SeleniumPractice1" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singlton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cubecarttest.Singlton" />
+    <configuration name="SeleniumPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.tests.SeleniumPractice2" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cubecarttest.*" />
+          <option name="PATTERN" value="com.selenium.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,58 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertion.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.selenium.rahulcourse.javastream.StreamDemo1" />
       <module name="myCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cubecarttest.*" />
+          <option name="PATTERN" value="com.selenium.rahulcourse.javastream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cubecarttest" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttest.Assertion" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Aynigar/projects/myCollection/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myCollection" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cubecarttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cubecarttest" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttest.TestClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.ListDuplicate" />
+      <item itemvalue="Application.SeleniumPractice1" />
+      <item itemvalue="Application.SeleniumPractice2" />
+      <item itemvalue="Application.SS" />
+      <item itemvalue="Application.StreamDemo1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="Application.Singlton" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="TestNG.Assertion.login" />
-        <item itemvalue="TestNG.C:/Users/Aynigar/projects/myCollection/testng.xml" />
+        <item itemvalue="Application.StreamDemo1" />
+        <item itemvalue="Application.SS" />
+        <item itemvalue="Application.ListDuplicate" />
+        <item itemvalue="Application.SeleniumPractice2" />
+        <item itemvalue="Application.SeleniumPractice1" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600374936752</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="MultiThread">
+      <created>1601929914425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601929914425</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,6 +260,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="MultiThread" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602171610873">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602171610873" />
     <state x="407" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598895150881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -267,46 +276,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598882477168" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1600374936064">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1601929913739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600374936064" />
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601929913739" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1598867316328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598867316328" />
-    <state width="1237" height="312" key="GridCell.Tab.0.bottom" timestamp="1601916692694">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom" timestamp="1602226097238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="312" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601916692694" />
-    <state width="1237" height="312" key="GridCell.Tab.0.center" timestamp="1601916692693">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602226097238" />
+    <state width="1237" height="159" key="GridCell.Tab.0.center" timestamp="1602226097234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="312" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601916692693" />
-    <state width="1237" height="312" key="GridCell.Tab.0.left" timestamp="1601916692693">
+    <state width="1237" height="159" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602226097234" />
+    <state width="1237" height="159" key="GridCell.Tab.0.left" timestamp="1602226097234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="312" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601916692693" />
-    <state width="1237" height="312" key="GridCell.Tab.0.right" timestamp="1601916692694">
+    <state width="1237" height="159" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602226097234" />
+    <state width="1237" height="159" key="GridCell.Tab.0.right" timestamp="1602226097238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="312" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601916692694" />
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1598764054729">
+    <state width="1237" height="159" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602226097238" />
+    <state width="1237" height="353" key="GridCell.Tab.1.bottom" timestamp="1602172331090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598764054729" />
-    <state width="1237" height="195" key="GridCell.Tab.1.center" timestamp="1598764054728">
+    <state width="1237" height="353" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602172331090" />
+    <state width="1237" height="353" key="GridCell.Tab.1.center" timestamp="1602172331090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
-    <state width="1237" height="195" key="GridCell.Tab.1.left" timestamp="1598764054728">
+    <state width="1237" height="353" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602172331090" />
+    <state width="1237" height="353" key="GridCell.Tab.1.left" timestamp="1602172331090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598764054728" />
-    <state width="1237" height="195" key="GridCell.Tab.1.right" timestamp="1598764054729">
+    <state width="1237" height="353" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602172331090" />
+    <state width="1237" height="353" key="GridCell.Tab.1.right" timestamp="1602172331090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598764054729" />
+    <state width="1237" height="353" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602172331090" />
     <state x="143" y="0" key="SettingsEditor" timestamp="1599499504822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -315,5 +324,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599409544933" />
+    <state x="22" y="44" key="new project wizard" timestamp="1602068572514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="22" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1602068572514" />
   </component>
 </project>
