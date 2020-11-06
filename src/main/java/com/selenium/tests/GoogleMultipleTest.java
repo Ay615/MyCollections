@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class GoogleMultipleTest {
+
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","c:\\webdriver\\chromedriver.exe");
         WebDriver webDriver=new ChromeDriver();

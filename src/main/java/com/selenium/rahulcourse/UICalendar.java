@@ -14,13 +14,11 @@ public class UICalendar {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.path2usa.com/travel-companions");
-        /*driver.findElement(By.id("travel_from")).sendKeys("Turkey");
-        driver.findElement(By.id("travel_to")).sendKeys("India"+ Keys.ENTER);*/
         Thread.sleep(3000);
-       WebElement calendarField=driver.findElement(By.xpath("//*[@id='travel_date']"));
+        WebElement calendarField=driver.findElement(By.xpath("//*[@id='travel_date']"));
         wait(driver,calendarField);
-        JavascriptExecutor jse2 = (JavascriptExecutor)driver;
-        jse2.executeScript("arguments[0].scrollIntoView()", calendarField);
+//        JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+//        jse2.executeScript("arguments[0].scrollIntoView()", calendarField);
         calendarField.click();
         List<WebElement> days=driver.findElements(By.xpath("//td[@class='day']"));
         for(int i=0;i<days.size();i++){

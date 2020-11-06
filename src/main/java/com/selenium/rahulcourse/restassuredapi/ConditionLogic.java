@@ -9,7 +9,7 @@ public class ConditionLogic {
         for(int i=0;i<courseSize;i++){
             String courseTitles=json.getString("courses["+i+"].title");
             if(courseTitles.equals("Cypress")){
-                System.out.println(json.get("courses["+i+"].price"));
+                //System.out.println(json.get("courses["+i+"].price"));
                 break;
             }
 
